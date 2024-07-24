@@ -1,0 +1,11 @@
+id = "assembly"
+name = "Assembly"
+version = "0.0.1"
+schema_version = 1
+authors = ["noClaps <contact@zerolimits.dev>"]
+description = "Assembly extension"
+repository = "https://github.com/noClaps/zed-assembly"
+
+[grammars.asm]
+repository = "https://github.com/RubixDev/tree-sitter-asm"
+commit = "b0306e9bb2ebe01c6562f1aef265cc42ccc53070"
