@@ -1,10 +1,14 @@
 id = "assembly"
 name = "Assembly"
-version = "0.0.1"
+description = "Assembly support."
+version = "0.0.2"
 schema_version = 1
-authors = ["noClaps <contact@zerolimits.dev>"]
-description = "Assembly extension"
-repository = "https://github.com/noClaps/zed-assembly"
+authors = ["Insidious Fiddler <contact@codycody31.dev>"]
+repository = "https://github.com/Codycody31/zed-asm"
+
+[language_servers.asm-lsp]
+name = "AssemblyLS"
+language = "Assembly"
 
 [grammars.asm]
 repository = "https://github.com/RubixDev/tree-sitter-asm"
